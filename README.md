@@ -1,6 +1,6 @@
 # 최혜린
----
-##Skills
+-
+## Skills
 * Frontend : JavaScript(ES6), React.js, HTML, CSS
 * Backend : JAVA, Spring Boot, JPA
 * Database : MariaDB
