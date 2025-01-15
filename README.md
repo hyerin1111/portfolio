@@ -4,7 +4,7 @@
 ## 주요기술
 * `JavaScript(ES6)`, `React.js`, `HTML`, `CSS`, `JAVA`, `Spring Boot`, `JPA`, `MariaDB`
 
-## Projects
+## 프로젝트
 **크라우드 펀딩 플랫폼**
 - 기간 : 2024.11.04 ~ 2024.12.18
 - 인원 : 6명
