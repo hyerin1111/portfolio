@@ -5,3 +5,7 @@
 * Frontend : JavaScript(ES6), React.js, HTML, CSS
 * Backend : JAVA, Spring Boot, JPA
 * Database : MariaDB
+
+## Projects
+** 크라우드 펀딩 플랫폼 **
+
