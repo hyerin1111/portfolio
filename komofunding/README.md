@@ -8,5 +8,3 @@
 
 ![유저 홈 - Clipchamp로 제작](https://github.com/user-attachments/assets/1b8773e8-2c78-4fdc-8ce2-db789341fb28)
 
-
-<img src="https://github.com/user-attachments/assets/1b8773e8-2c78-4fdc-8ce2-db789341fb28" width="100%" height="auto">
