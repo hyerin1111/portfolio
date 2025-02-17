@@ -1,12 +1,4 @@
-<img src="https://github.com/user-attachments/assets/170be689-9a51-488a-895f-c74c83b24ef5" width="100%" height="auto">
+![유저 홈](https://github.com/user-attachments/assets/e8e3c0f8-5170-460e-9d47-640496109842)
 
-
-<img src="https://github.com/user-attachments/assets/5ea88dbd-d0f1-4421-8985-677f06ce0b9d" width="100%" height="auto">
-
-![유저 회원가입 로그인 - Clipchamp로 제작](https://github.com/user-attachments/assets/5ea88dbd-d0f1-4421-8985-677f06ce0b9d)
-
-
-![유저 홈 - Clipchamp로 제작](https://github.com/user-attachments/assets/1b8773e8-2c78-4fdc-8ce2-db789341fb28)
-
-
-<img src="https://github.com/user-attachments/assets/1b8773e8-2c78-4fdc-8ce2-db789341fb28" width="100%" height="auto">
+#홈페이지
+<img src="https://github.com/user-attachments/assets/f56fa7f4-c6a6-46da-b721-9b9d7108ac52" width="100%" height="auto">
