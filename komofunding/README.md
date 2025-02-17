@@ -1,3 +1,3 @@
 
 
-![유저 홈](https://github.com/user-attachments/assets/6cdc366d-abab-4bdc-8cae-278f2ce62370)
+![유저 홈 - Clipchamp로 제작](https://github.com/user-attachments/assets/170be689-9a51-488a-895f-c74c83b24ef5)
