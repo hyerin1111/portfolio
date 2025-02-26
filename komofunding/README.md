@@ -3,6 +3,9 @@
 코모 메인 홈
 ![제목 없는 동영상 - Clipchamp로 제작](https://github.com/user-attachments/assets/fb46016f-a7a5-4907-9e67-40b2ab733e63)
 
+![메인홈](https://github.com/user-attachments/assets/0ae454e2-e08f-4b99-99f5-2a01696c6645)
+
+
 코모 로그인 => 회원가입
 ![코모 로그인에서 회원가입](https://github.com/user-attachments/assets/fdcf6d50-918d-409b-aa13-bcd530d27a9b)
 
