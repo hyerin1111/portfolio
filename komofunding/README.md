@@ -1,10 +1,7 @@
-![유저 홈](https://github.com/user-attachments/assets/e8e3c0f8-5170-460e-9d47-640496109842)
 
-#홈페이지
+1132-13 201호 전세 3200/ 관리비 2만(수도비 + 공용관리비) 월세 500/25 관리비 2만 분리형 원룸  풀옵션 남향 
 
-<img src="https://github.com/user-attachments/assets/f56fa7f4-c6a6-46da-b721-9b9d7108ac52" width="100%" height="auto">
-
-안넝
+다가구
 
 
-![Uploading 유저 홈.gif…]()
+![제목 없는 동영상 - Clipchamp로 제작](https://github.com/user-attachments/assets/fb46016f-a7a5-4907-9e67-40b2ab733e63)
