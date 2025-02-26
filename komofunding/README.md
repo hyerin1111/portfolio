@@ -5,3 +5,6 @@
 
 코모 로그인 => 회원가입
 ![코모 로그인에서 회원가입](https://github.com/user-attachments/assets/fdcf6d50-918d-409b-aa13-bcd530d27a9b)
+
+회원가입1 이메일 보내기
+![회원가입 1](https://github.com/user-attachments/assets/dc4c52f3-4e8e-4a24-8d5c-01331347a797)
