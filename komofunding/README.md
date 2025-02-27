@@ -30,6 +30,11 @@ Komofunding은 **크라우드 펀딩 플랫폼**으로, 사용자가 프로젝�
 
 <img width="1101" alt="image" src="https://github.com/user-attachments/assets/fa6e0109-5e6a-4b37-af4d-bb99f1123653" />
 
+6자리 회원 번호 자동 생성
+
+
+![메인화면](https://github.com/user-attachments/assets/6dbafefd-a435-4229-b735-02b6d493d9a2)
+
 
 
 
