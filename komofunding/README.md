@@ -26,11 +26,6 @@ Komofunding은 **크라우드 펀딩 플랫폼**으로, 사용자가 프로젝�
 ## 🖥️ **회원가입**
 
 
-![제목 없는 동영상 - Clipchamp로 제작 (1)](https://github.com/user-attachments/assets/0a218008-00e0-4c26-a2ce-02fddf136b3d)
-
-
-![회원가입 짧은](https://github.com/user-attachments/assets/a546fa21-4c2a-4f56-983a-c170376803ea)
-
 ![회원가입 짧은 (1)](https://github.com/user-attachments/assets/3618d406-d71f-48a3-b3ba-868a8062c525)
 
 
