@@ -16,7 +16,7 @@ Komofunding은 **크라우드 펀딩 플랫폼**으로, 사용자가 프로젝�
 
 ---
 
-## 🖥️ **메인 화면**
+## 🖥️ **홈 화면**
 - **Framer motion**을 활용하여 다양한 애니메이션을 적용하고, **동적인 사용자 경험**을 제공합니다.
 
 
@@ -36,16 +36,7 @@ Komofunding은 **크라우드 펀딩 플랫폼**으로, 사용자가 프로젝�
 
 
 
-
-![메인화면](https://github.com/user-attachments/assets/6dbafefd-a435-4229-b735-02b6d493d9a2)
-
-
-
-<img src="https://github.com/user-attachments/assets/6dbafefd-a435-4229-b735-02b6d493d9a2" style="width: 100%;">
-
-
-![메인화면짧](https://github.com/user-attachments/assets/25078bec-63fc-4296-8f91-7cd5f4c3a798)
-
+## 🖥️ **메인화면**
 
 ![프로젝트 멩니 짧 (1)](https://github.com/user-attachments/assets/96c5f111-eb64-438a-96a9-e9558a96d3c9)
 
