@@ -63,3 +63,5 @@ Komofunding은 **크라우드 펀딩 플랫폼**으로, 사용자가 프로젝�
   <img src="https://github.com/user-attachments/assets/25078bec-63fc-4296-8f91-7cd5f4c3a798" style="width: 100%;">
 </picture>
 
+
+
