@@ -268,6 +268,7 @@ https://github.com/user-attachments/assets/64598806-0bf8-4e1a-8667-7bc2df7c26f5
 ---
 
 **공지사항 데이터 흐름**
+
 1️⃣ **사용자가 공지사항 페이지에 접속**  
 2️⃣ `useEffect`를 활용하여 `readAllCommunities()`를 호출하여 데이터를 가져옴  
 3️⃣ `공지사항 카테고리 선택 시` 필터링 적용  
