@@ -63,6 +63,59 @@ Active : 현재 후원이 진행 중인 프로젝트
 
 https://github.com/user-attachments/assets/f74db6bc-5bb8-4098-bf0e-2d67c5d8fb46
 
+# 🖥️ 메인화면  
+
+홈 화면에서는 **운영자가 승인한 모든 프로젝트**를 볼 수 있습니다.  
+특히, **후원 진행률(progressRate)이 높은 인기 프로젝트를 상단에 배치**하여 쉽게 확인할 수 있도록 했습니다.  
+현재 **프론트엔드에서 데이터를 받아 필터링하여 표시하는 방식**으로 구현되어 있습니다.  
+
+---
+
+## 🛠 프론트에서 처리하는 방식  
+
+1. `/projects` API를 호출하여 **전체 프로젝트 데이터를 가져옵니다.**  
+2. 현재 경로(`pathname`)를 확인하여 `fundingStatus` 값을 설정합니다.  
+   - 예: `/active` → `fundingStatus = "ONGOING"`, `/upcoming` → `fundingStatus = "UPCOMING"`  
+3. **프론트에서 `fundingStatus`에 따라 데이터를 필터링하여 화면에 렌더링합니다.**  
+   - 진행 중인 프로젝트만 보여주거나, 진행 예정 프로젝트만 보여주는 방식  
+
+---
+
+## 📌 프로젝트 목록  
+
+### 🏠 Home: 운영자의 승인을 받은 모든 프로젝트  
+*"이 플랫폼에서는 다양한 크라우드 펀딩 프로젝트를 한눈에 확인할 수 있습니다.  
+React와 `useEffect()`를 활용해 API 데이터를 가져오고,  
+현재 경로(pathname)에 따라 필터링하여 필요한 프로젝트만 화면에 보여주는 방식으로 구현했습니다."*  
+
+![Home 화면](https://github.com/user-attachments/assets/feec46fb-058b-4306-8148-54efbd688d10)  
+
+---
+
+### ⏳ Upcoming: 아직 후원이 시작되지 않은 프로젝트  
+![Upcoming 화면](https://github.com/user-attachments/assets/83b19248-2770-45f5-a0b6-ead9e94e3b54)  
+
+---
+
+### 🚀 Active: 현재 후원이 진행 중인 프로젝트  
+![Active 화면](https://github.com/user-attachments/assets/f74db6bc-5bb8-4098-bf0e-2d67c5d8fb46)  
+
+---
+
+## 📌 기술 스택  
+
+| 분류       | 기술 |
+|------------|--------------------------------------------------|
+| **Frontend** | React, React Router, Axios, useState, useEffect |
+| **Backend**  | Spring Boot, Spring Data JPA, Lombok, Jakarta EE |
+| **Database** | MySQL, JPA Repository |
+| **API 통신** | RESTful API, JSON |
+| **기타**    | JWT 기반 인증, HttpSession |
+
+---
+
+이렇게 작성하면 **가독성이 좋아지고 깔끔한 문서 스타일**이 됩니다! 🚀  
+혹시 추가하고 싶은 내용이나 수정할 부분이 있으면 알려주세요. 😉  
 
 
 ## 🖥️ **문의하기**
