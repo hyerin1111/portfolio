@@ -17,13 +17,56 @@ Komofunding은 **크라우드 펀딩 플랫폼**으로, 사용자가 프로젝�
 ---
 
 ## 🖥️ **홈 화면**
-- **Framer motion**을 활용하여 다양한 애니메이션을 적용하고, **동적인 사용자 경험**을 제공합니다.
 
+이 프로젝트의 프론트엔드는 **React 기반**으로 구축되었으며,  
+**Framer Motion, Styled-components, React Router, CSS Modules** 등의 기술을 활용하여  
+직관적인 UI와 **동적인 사용자 경험**을 제공합니다.  
 
+홈 화면에서는 **프로젝트 데이터를 프론트에서 필터링하여 표시하는 방식**으로 구현되었으며,  
+**신규 프로젝트(`isNew` 태그)와 인기 프로젝트(`isPopular` 태그)를 자동으로 필터링하여 노출**합니다.  
 
-https://github.com/user-attachments/assets/1e83c3c1-4bd5-4505-b20c-4bcaa7a3ed4d
+[![홈 화면](https://github.com/user-attachments/assets/1e83c3c1-4bd5-4505-b20c-4bcaa7a3ed4d)  ](https://github.com/user-attachments/assets/1e83c3c1-4bd5-4505-b20c-4bcaa7a3ed4d)
 
+---
 
+### **📌 홈 화면 주요 기능**  
+
+✅ **인기 프로젝트 & 신규 프로젝트 분류** (`isPopular`, `isNew` 태그)  
+✅ **Framer Motion을 활용한 애니메이션 적용**  
+✅ **반응형 UI (모바일 최적화)**  
+✅ **진행 중인 프로젝트(Active), 예정된 프로젝트(Upcoming) 자동 필터링**  
+
+---
+
+### **📌 데이터 처리 방식**  
+
+1️⃣ `/projects` API를 호출하여 **전체 프로젝트 데이터를 가져옴**  
+2️⃣ `fundingStatus` 값을 기준으로 **진행 중인 프로젝트(Active) / 예정된 프로젝트(Upcoming) 필터링**  
+3️⃣ **최근 30일 이내 시작된 프로젝트** → `isNew` 태그 추가  
+4️⃣ **진행률(progressRate)이 높은 프로젝트** → `isPopular` 태그 추가  
+5️⃣ `progressRate` 값을 기준으로 **인기 프로젝트 정렬**  
+6️⃣ **랜덤 정렬 기능 추가** → 다양한 프로젝트가 노출될 수 있도록 처리  
+
+---
+
+### **📌 프로젝트 필터링 방식**  
+
+- `isNew` 태그 → 최근 30일 이내 시작된 프로젝트에 자동 추가  
+- `isPopular` 태그 → **후원 진행률(progressRate)**이 높은 프로젝트에 자동 추가  
+- **랜덤 섞기 기능** → 여러 프로젝트가 균등하게 노출될 수 있도록 정렬  
+
+---
+
+### **📌 사용 기술**  
+
+| 분류       | 기술 |
+|------------|--------------------------------------------------|
+| **Frontend** | React, React Router, Framer Motion, Styled-components, CSS Modules |
+| **Backend**  | Spring Boot, Spring Data JPA, Lombok, MySQL |
+| **API 통신** | RESTful API, Axios |
+| **기타**    | JWT 기반 인증, HttpSession |
+
+---
 
 
 ## 🖥️ **회원가입**
