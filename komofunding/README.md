@@ -18,10 +18,10 @@ KOMO FUNDING은 단순한 펀딩을 넘어, 창작자와 후원자 간의 소통
 
 *"이 프로젝트의 프론트엔드는 **React 기반**으로 구축되었으며,  
 **Framer Motion, Styled-components, React Router, CSS Modules** 등의 기술을 활용하여  
-직관적인 UI와 **동적인 사용자 경험**을 제공합니다."*
+직관적인 UI와 **동적인 사용자 경험**을 제공합니다.
 
 홈 화면에서는 **프로젝트 데이터를 프론트에서 필터링하여 표시하는 방식**으로 구현되었으며,  
-**신규 프로젝트(`isNew` 태그)와 인기 프로젝트(`isPopular` 태그)를 자동으로 필터링하여 노출**합니다.  
+**신규 프로젝트(`isNew` 태그)와 인기 프로젝트(`isPopular` 태그)를 자동으로 필터링하여 노출**합니다."*
 
 [![홈 화면](https://github.com/user-attachments/assets/1e83c3c1-4bd5-4505-b20c-4bcaa7a3ed4d)  ](https://github.com/user-attachments/assets/1e83c3c1-4bd5-4505-b20c-4bcaa7a3ed4d)
 
