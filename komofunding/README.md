@@ -234,15 +234,10 @@ https://github.com/user-attachments/assets/64598806-0bf8-4e1a-8667-7bc2df7c26f5
 **주요 기능** 
 
 ✅ 공지사항 목록 조회 (/api/posts/community) 
-
 ✅ 카테고리별 필터링 (NOTICE, EVENT, FAQ) 
-
 ✅ 최신순 정렬 (writeDate 기준 내림차순) 
-
 ✅ 공지사항 상세 조회 (/home/announcement/:id) 
-
 ✅ 애니메이션 효과 적용 (Framer Motion 활용) 
-
 ✅ 페이징 기능 지원 (페이지당 5개씩 표시) 
 
 ---
