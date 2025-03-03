@@ -41,11 +41,11 @@ https://github.com/user-attachments/assets/1e83c3c1-4bd5-4505-b20c-4bcaa7a3ed4d
 
 Home: 운영자의 승인을 받은 모든 프로젝트 
 
-
-https://github.com/user-attachments/assets/7fadac3d-cbaf-4fb6-938a-414cbb0d614f
-
+https://github.com/user-attachments/assets/feec46fb-058b-4306-8148-54efbd688d10
 
 Upcoming : 아직 후원이 시작되지 않은 프로젝트  
+
+https://github.com/user-attachments/assets/83b19248-2770-45f5-a0b6-ead9e94e3b54
 
 Active : 현재 후원이 진행 중인 프로젝트
 
