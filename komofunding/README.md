@@ -38,11 +38,6 @@ https://github.com/user-attachments/assets/1e83c3c1-4bd5-4505-b20c-4bcaa7a3ed4d
 
 ## 🖥️ **메인화면**
 
-![프로젝트 멩니 짧 (1)](https://github.com/user-attachments/assets/96c5f111-eb64-438a-96a9-e9558a96d3c9)
-
-<img src="https://github.com/user-attachments/assets/96c5f111-eb64-438a-96a9-e9558a96d3c9" style="width: 100%;">
-
-
 https://github.com/user-attachments/assets/708c4b45-b0a4-4448-ad34-f07eaafb989a
 
 
