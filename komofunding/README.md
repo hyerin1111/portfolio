@@ -204,7 +204,7 @@ https://github.com/user-attachments/assets/f74db6bc-5bb8-4098-bf0e-2d67c5d8fb46
 4. `setIsPopupOpen(true)`를 호출하여 팝업을 띄우고 등록 완료 메시지 제공  
 5. `Spring Boot` 백엔드의 `/qna/new` API를 호출하여 데이터베이스에 저장  
 6. 사용자는 "나의 문의 내역" 페이지에서 등록된 문의를 확인 가능  
-
+<br>
 
 
 ## 🖥️ **결제**
