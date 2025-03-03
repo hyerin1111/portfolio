@@ -222,7 +222,53 @@ https://github.com/user-attachments/assets/fc4cefc4-d73d-4cc8-99ce-07f033af3a2a
 
 ## 🖥️ **공지사항**
 
+*"이 프로젝트의 공지사항 시스템은 React, Framer Motion, React Router, Redux 등을 활용하여
+유저가 쉽게 접근하고 확인할 수 있도록 설계되었습니다.
+공지사항은 카테고리(NOTICE, EVENT, FAQ)에 따라 필터링되며,
+최신순으로 정렬되어 유저가 가장 중요한 정보를 빠르게 확인할 수 있도록 구성되어 있습니다."*
 
 https://github.com/user-attachments/assets/64598806-0bf8-4e1a-8667-7bc2df7c26f5
+
+---
+
+**주요 기능**
+✅ 공지사항 목록 조회 (/api/posts/community)
+✅ 카테고리별 필터링 (NOTICE, EVENT, FAQ)
+✅ 최신순 정렬 (writeDate 기준 내림차순)
+✅ 공지사항 상세 조회 (/home/announcement/:id)
+✅ 애니메이션 효과 적용 (Framer Motion 활용)
+✅ 페이징 기능 지원 (페이지당 5개씩 표시)
+
+---
+
+**UI 구성**
+
+✅ **카테고리 필터링 바**  
+- `NOTICE`, `EVENT`, `FAQ` 버튼 클릭 시 해당 카테고리 데이터만 필터링  
+- `window.resize` 감지하여 **반응형 UI 적용**  
+
+✅ **공지사항 목록**  
+- 최신 공지사항 상단 노출 (`writeDate` 기준 정렬)  
+- **한 페이지당 5개씩 표시** (`Pagination` 적용)  
+- 클릭 시 **공지사항 상세 페이지 이동**  
+
+✅ **공지사항 상세 페이지**  
+- `communityNumber`를 이용해 데이터 조회  
+- 작성일, 작성자, 제목, 내용을 표시  
+
+✅ **애니메이션 효과 적용**  
+- `Framer Motion` 활용하여 **자연스러운 인터랙션 구현**  
+
+---
+
+**공지사항 데이터 흐름**
+1️⃣ **사용자가 공지사항 페이지에 접속**  
+2️⃣ `useEffect`를 활용하여 `readAllCommunities()`를 호출하여 데이터를 가져옴  
+3️⃣ `공지사항 카테고리 선택 시` 필터링 적용  
+4️⃣ 페이징 처리를 통해 데이터 최적화  
+
+
+---
+
 
 
