@@ -16,7 +16,7 @@ KOMO FUNDING은 단순한 펀딩을 넘어, 창작자와 후원자 간의 소통
 
 ## 🖥️ **홈 화면**
 
-*"이 프로젝트의 프론트엔드는 `React 기반`으로 구축되었으며,  
+*"이 프로젝트의 프론트엔드는 `React` 기반으로 구축되었으며,  
 `Framer Motion`, `Styled-components`, `React Router`, `CSS Modules` 등의 기술을 활용하여  
 직관적인 UI와 동적인 사용자 경험을 제공합니다."*
 
