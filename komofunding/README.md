@@ -58,11 +58,12 @@ https://github.com/user-attachments/assets/1e83c3c1-4bd5-4505-b20c-4bcaa7a3ed4d
 
 ---
 
-#### Home: 운영자의 승인을 받은 모든 프로젝트  
-
 *"이 플랫폼에서는 다양한 크라우드 펀딩 프로젝트를 한눈에 확인할 수 있습니다.  
 React와 `useEffect()`를 활용해 API 데이터를 가져오고,  
 현재 경로(pathname)에 따라 필터링하여 필요한 프로젝트만 화면에 보여주는 방식으로 구현했습니다."*  
+
+#### Home: 운영자의 승인을 받은 모든 프로젝트  
+
 https://github.com/user-attachments/assets/feec46fb-058b-4306-8148-54efbd688d10
 
 ---
