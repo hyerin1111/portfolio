@@ -57,16 +57,6 @@ Komofunding은 **크라우드 펀딩 플랫폼**으로, 사용자가 프로젝�
 
 ---
 
-### **📌 사용 기술**  
-
-| 분류       | 기술 |
-|------------|--------------------------------------------------|
-| **Frontend** | React, React Router, Framer Motion, Styled-components, CSS Modules |
-| **Backend**  | Spring Boot, Spring Data JPA, Lombok, MySQL |
-| **API 통신** | RESTful API, Axios |
-| **기타**    | JWT 기반 인증, HttpSession |
-
----
 
 
 ## 🖥️ **회원가입**
