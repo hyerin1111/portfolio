@@ -225,5 +225,6 @@ https://github.com/user-attachments/assets/fc4cefc4-d73d-4cc8-99ce-07f033af3a2a
 
 https://github.com/user-attachments/assets/64598806-0bf8-4e1a-8667-7bc2df7c26f5
 
+![공지사항](https://github.com/user-attachments/assets/61517482-38db-499c-9a7d-9d8a2be5a20a)
 
 
