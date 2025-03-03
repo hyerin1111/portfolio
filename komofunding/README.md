@@ -105,7 +105,6 @@ KOMO FUNDING은 단순한 펀딩을 넘어, 창작자와 후원자 간의 소통
 4. **회원가입 처리**
    - 비밀번호는 `BCryptPasswordEncoder`를 활용하여 안전하게 암호화 후 저장
    - 회원 정보가 `MySQL` 데이터베이스에 저장됨
-   - 가입 성공 시 로그인 페이지로 자동 이동  
 
 ---
 
@@ -116,12 +115,11 @@ KOMO FUNDING은 단순한 펀딩을 넘어, 창작자와 후원자 간의 소통
 ✅ **로그인 상태 관리** → `HttpSession`을 통해 유지  
 ✅ **회원 탈퇴 시 계정 비활성화** → `UserStatus.DEACTIVATED` 처리  
 
----
-
 
 
 ![로그인](https://github.com/user-attachments/assets/1ff454e6-6fb9-41fa-b180-15f06b022293)
 
+---
 
 
 
