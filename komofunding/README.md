@@ -51,6 +51,7 @@ https://github.com/user-attachments/assets/1e83c3c1-4bd5-4505-b20c-4bcaa7a3ed4d
     /active이면 → fundingStatus = "ONGOING", /upcoming이면 → fundingStatus = "UPCOMING"
 3. 프론트엔드에서 fundingStatus 값에 맞춰 데이터를 필터링한 후, 화면에 렌더링합니다.
     진행 중인 프로젝트만 보여주거나, 진행 예정 프로젝트만 보여주는 방식
+   
 📌 백엔드 구현 방식
 1.  Spring Boot + MySQL + JPA로 프로젝트 관리 시스템을 구축했습니다.
 2.  RESTful API를 통해 프론트엔드에서 필요한 데이터를 받아옵니다.
