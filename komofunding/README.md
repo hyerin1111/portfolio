@@ -48,9 +48,5 @@ https://github.com/user-attachments/assets/708c4b45-b0a4-4448-ad34-f07eaafb989a
 
 ## 🖥️ **결제**
 
-![결제](https://github.com/user-attachments/assets/669e6e2e-5cbf-4e96-be99-007ed409a79c)
-
-
-
 https://github.com/user-attachments/assets/fc4cefc4-d73d-4cc8-99ce-07f033af3a2a
 
