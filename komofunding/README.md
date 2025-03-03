@@ -14,6 +14,8 @@ KOMO FUNDING은 단순한 펀딩을 넘어, 창작자와 후원자 간의 소통
 
 ---
 
+<br>
+
 ## 🖥️ **홈 화면**
 
 *"이 프로젝트의 프론트엔드는 `React` 기반으로 구축되었으며,  
@@ -54,8 +56,9 @@ KOMO FUNDING은 단순한 펀딩을 넘어, 창작자와 후원자 간의 소통
 5. 랜덤 정렬 기능을 추가하여 여러 프로젝트가 균등하게 노출될 수 있도록 처리  
 
 ---
-<br>
 
+
+<br>
 
 ## 🖥️ **회원가입**
 
@@ -122,6 +125,7 @@ KOMO FUNDING은 단순한 펀딩을 넘어, 창작자와 후원자 간의 소통
 ---
 
 
+<br>
 
 ## 🖥️ 메인화면  
 
@@ -166,6 +170,7 @@ https://github.com/user-attachments/assets/f74db6bc-5bb8-4098-bf0e-2d67c5d8fb46
 ---
 
 
+<br>
 
 ## 🖥️ **문의하기**
 
@@ -204,8 +209,9 @@ https://github.com/user-attachments/assets/f74db6bc-5bb8-4098-bf0e-2d67c5d8fb46
 4. `setIsPopupOpen(true)`를 호출하여 팝업을 띄우고 등록 완료 메시지 제공  
 5. `Spring Boot` 백엔드의 `/qna/new` API를 호출하여 데이터베이스에 저장  
 6. 사용자는 "나의 문의 내역" 페이지에서 등록된 문의를 확인 가능  
-<br>
 
+
+<br>
 
 ## 🖥️ **결제**
 
