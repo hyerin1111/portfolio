@@ -119,8 +119,132 @@ KOMO FUNDING은 단순한 펀딩을 넘어, 창작자와 후원자 간의 소통
 ✅ **회원 탈퇴 시 계정 비활성화** → `UserStatus.DEACTIVATED` 처리  
 
 
-
 ![로그인](https://github.com/user-attachments/assets/1ff454e6-6fb9-41fa-b180-15f06b022293)
+
+---
+
+
+<br>
+
+<br>
+
+## 🖥️ **프로필 관리**
+
+*"이 프로젝트의 프로필 관리 기능은 `React`와 `Spring Boot` 기반으로 구축되었으며,  
+사용자는 자신의 프로필을 조회하고, 정보를 수정하며, 필요할 경우 계정을 삭제할 수 있습니다.  
+비밀번호 인증을 통해 보안을 강화하였으며, `BCryptPasswordEncoder`를 활용해 안전하게 저장됩니다."*
+
+https://github.com/user-attachments/assets/7e66bcfd-af4d-4f4d-a13f-375072061cf4
+
+---
+
+### **프로필 주요 기능**  
+
+✅ **사용자 프로필 조회** (`GET /api/user/{userNum}/my_info/profile`)  
+✅ **사용자 프로필 수정** (`PATCH /api/user/{userNum}/my_info/profile`)  
+✅ **비밀번호 인증 후 정보 수정 가능 (닉네임, 연락처, 계좌 정보 등)**  
+✅ **회원 탈퇴 (비활성화 처리)** (`DELETE /api/user/delete`)  
+✅ **React 상태 관리 & RESTful API 연동**  
+
+---
+
+
+### **프로필 조회 프로세스**  
+
+1️⃣ 사용자가 **프로필 페이지에 접속**  
+2️⃣ `/api/user/{userNum}/my_info/profile` API 호출하여 데이터 가져오기  
+3️⃣ 백엔드에서 `UserService`를 통해 **DB에서 사용자 정보 조회**  
+4️⃣ 가져온 데이터를 `useState`에 저장하여 화면에 렌더링  
+
+---
+
+### **데이터 처리 방식**  
+
+✅ **프론트엔드**: `useEffect`를 활용하여 API 호출 후 상태 저장  
+✅ **백엔드**: `Spring Boot`에서 `UserService`를 통해 데이터 조회  
+✅ **DB 조회**: `findByUserNum(userNum)`를 통해 사용자 정보 검색  
+
+---
+
+<br>
+
+## 🖥️ **프로필 수정**
+
+*"사용자는 자신의 프로필을 수정할 수 있으며,  
+닉네임, 연락처, 계좌 정보 등을 변경하려면 **비밀번호를 입력**해야 합니다."*
+
+---
+
+### **프로필 수정 주요 기능**  
+
+✅ **비밀번호 입력 후 정보 수정 가능**  
+✅ **닉네임, 전화번호, 한줄 소개, 계좌 정보 변경 가능**  
+✅ **수정 후 변경된 정보 자동 반영**  
+✅ **React 상태 관리 & API 연동**  
+
+---
+
+### **프로필 수정 프로세스**  
+
+1️⃣ 사용자가 **닉네임, 연락처, 한줄 소개 등 변경**  
+2️⃣ **현재 비밀번호 입력 후 검증**  
+3️⃣ 비밀번호 검증이 완료되면 `PATCH` 요청을 통해 변경 사항 저장  
+4️⃣ 수정이 완료되면 **변경된 데이터로 화면 갱신**  
+
+---
+
+### **데이터 처리 방식**  
+
+✅ **비밀번호 검증 후 수정 가능** → `verifyPassword(userNum, password)`  
+✅ **React 상태 업데이트** → `useState` 활용하여 자동 갱신  
+✅ **데이터베이스 저장** → `UserRepository.save(user)` 호출  
+
+---
+
+<br>
+
+## 🖥️ **회원 탈퇴**
+
+*"사용자는 계정을 삭제할 수 있으며,  
+삭제 후에는 로그인할 수 없으며 모든 데이터가 비활성화됩니다."*
+
+![회원탈퇴](https://github.com/user-attachments/assets/dfc80dd6-229d-4f27-9330-fdd6be691d1c)
+
+
+---
+
+### **회원 탈퇴 주요 기능**  
+
+✅ **비밀번호 인증 후 탈퇴 가능**  
+✅ **탈퇴 후 계정 비활성화 (`DEACTIVATED`) 처리**  
+✅ **탈퇴 후 세션 삭제 및 로그아웃 처리**  
+
+---
+
+### **회원 탈퇴 프로세스**  
+
+1️⃣ 사용자가 **비밀번호 입력 후 회원 탈퇴 요청**  
+2️⃣ 백엔드에서 **비밀번호 검증 후 계정 비활성화 (`DEACTIVATED`) 처리**  
+3️⃣ 탈퇴 후 **세션 삭제 및 로그아웃**  
+4️⃣ **메인 페이지로 리디렉션**  
+
+---
+
+### **데이터 처리 방식**  
+
+✅ **비밀번호 검증 후 탈퇴 가능** → `verifyPassword(userNum, password)`  
+✅ **계정 비활성화 처리** → `setActivatedStatus(UserStatus.DEACTIVATED)`  
+✅ **세션 삭제 후 로그아웃** → `session.invalidate()`  
+
+---
+
+## 🖥️ **프로필 관리 기능 구현 방식**
+
+| **기능** | **프론트엔드 구현 방식** | **백엔드 API** |
+|----------|------------------|-----------------|
+| **프로필 조회** | `useEffect`로 API 호출 → 상태 업데이트 | `GET /api/user/{userNum}/my_info/profile` |
+| **프로필 수정** | `onClick` 이벤트 발생 시 API 요청 | `PATCH /api/user/{userNum}/my_info/profile` |
+| **회원 탈퇴** | `onClick` → 비밀번호 검증 후 API 요청 | `DELETE /api/user/delete` |
 
 ---
 
