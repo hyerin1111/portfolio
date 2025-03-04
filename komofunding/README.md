@@ -29,7 +29,8 @@ KOMO FUNDING은 단순한 펀딩을 넘어, 창작자와 후원자 간의 소통
 
 ---
 
-<details><summary>홈 화면 기능 개요</summary>
+<details>
+   <summary>홈 화면 기능 개요</summary>
 
    
  **홈 화면 주요 기능**  
@@ -75,7 +76,8 @@ KOMO FUNDING은 단순한 펀딩을 넘어, 창작자와 후원자 간의 소통
 
 ---
 
-<details><summary>회원가입 기능 개요</summary>
+<details>
+   <summary>회원가입 기능 개요</summary>
 
  **회원가입 주요 기능**
 
@@ -145,7 +147,8 @@ https://github.com/user-attachments/assets/7e66bcfd-af4d-4f4d-a13f-375072061cf4
 ---
 
 
-<details><summary>프로필 관리 기능 개요</summary>
+<details>
+   <summary>프로필 관리 기능 개요</summary>
 
 ### **프로필 주요 기능**  
 
@@ -262,6 +265,7 @@ https://github.com/user-attachments/assets/7e66bcfd-af4d-4f4d-a13f-375072061cf4
 
 <br>
 
+
 ## 🖥️ 메인화면  
 
 *"홈 화면에서는 운영자가 승인한 모든 프로젝트를 확인할 수 있으며,  
@@ -271,7 +275,8 @@ React와 `useEffect()`를 활용해 API에서 데이터를 가져오고,
 현재 경로(`pathname`)에 따라 필터링하여 필요한 프로젝트만 화면에 표시하는 방식으로 구현되었습니다."*  
 
 ---
- 
+ <details>
+<summary>메인화요</summary>
 
 #### Home: 운영자의 승인을 받은 모든 프로젝트  
 
@@ -304,6 +309,7 @@ https://github.com/user-attachments/assets/f74db6bc-5bb8-4098-bf0e-2d67c5d8fb46
 
 ---
 
+ </details>
 
 <br>
 
@@ -318,6 +324,9 @@ https://github.com/user-attachments/assets/f74db6bc-5bb8-4098-bf0e-2d67c5d8fb46
 
 ---
 
+ <details>
+<summary>문의하기 기능 개요</summary>
+ 
 ## **문의하기 주요 기능**  
 
 ✅ **문의글 작성 및 등록**  
@@ -345,8 +354,9 @@ https://github.com/user-attachments/assets/f74db6bc-5bb8-4098-bf0e-2d67c5d8fb46
 5. `Spring Boot` 백엔드의 `/qna/new` API를 호출하여 데이터베이스에 저장  
 6. 사용자는 "나의 문의 내역" 페이지에서 등록된 문의를 확인 가능  
 
-
-<br>
+ </details>
+ 
+---
 
 <br>
 
@@ -358,6 +368,10 @@ PortOne API를 연동하여 신용카드 및 다양한 결제 수단을 지원�
 후원 내역 조회 및 환불 신청 기능도 포함되어 있습니다."*
 
 https://github.com/user-attachments/assets/6ed6d8e9-034e-4ef2-903a-7e6af9c626e5
+
+
+ <details>
+<summary>후원 및 결제 관리 기능 개요</summary>
 
 ---
 
@@ -405,7 +419,11 @@ https://github.com/user-attachments/assets/6ed6d8e9-034e-4ef2-903a-7e6af9c626e5
 | **후원 내역 조회** | API 호출 후 상태 업데이트 | `GET /payment/myinfo/funding` |
 | **환불 신청** | `onClick` → API 요청 | `DELETE /payment/myfunding/{paymentId}` |
 
+ </details>
+ 
 ---
+
+
 
 <br>
 
@@ -417,6 +435,10 @@ https://github.com/user-attachments/assets/6ed6d8e9-034e-4ef2-903a-7e6af9c626e5
 
 
 ---
+
+ <details>
+<summary>프로젝트 관리 및 등록 기능 개요</summary>
+
 
 ### **프로젝트 관리 주요 기능**  
 
@@ -552,10 +574,7 @@ https://github.com/user-attachments/assets/6ed6d8e9-034e-4ef2-903a-7e6af9c626e5
 
 ---
 
-*"이 시스템을 통해 사용자는 효율적으로 크라우드 펀딩 프로젝트를 관리할 수 있으며,  
-원활한 프로젝트 운영을 위한 직관적인 UI와 안정적인 데이터 처리 구조를 제공합니다."*
-
----
+ </details>
 
 
 
@@ -571,6 +590,10 @@ https://github.com/user-attachments/assets/6ed6d8e9-034e-4ef2-903a-7e6af9c626e5
 https://github.com/user-attachments/assets/64598806-0bf8-4e1a-8667-7bc2df7c26f5
 
 ---
+
+ <details>
+<summary>공지사항 기능 개요</summary>
+
 
 **주요 기능** 
 
@@ -613,5 +636,6 @@ https://github.com/user-attachments/assets/64598806-0bf8-4e1a-8667-7bc2df7c26f5
 
 ---
 
+ </details>
 
 
