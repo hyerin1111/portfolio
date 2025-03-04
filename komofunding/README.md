@@ -180,6 +180,8 @@ https://github.com/user-attachments/assets/f74db6bc-5bb8-4098-bf0e-2d67c5d8fb46
 
 </details>
 
+---
+
 ![로그인](https://github.com/user-attachments/assets/1ff454e6-6fb9-41fa-b180-15f06b022293)
 
 ---
