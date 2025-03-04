@@ -27,6 +27,20 @@
 **인원**: 8명  
 **소개**: Komofunding은 사용자의 다양한 아이디어를 실현할 수 있도록 돕는 크라우드 펀딩 웹 플랫폼입니다. 프로젝트를 효과적으로 홍보하고, 후원 및 결제를 간편하게 처리할 수 있는 시스템을 제공하여 사용자 편의성을 극대화합니다. 또한, 반응형 웹 디자인을 적용해 다양한 기기에서 최적의 경험을 제공하며, 보다 많은 후원자와 연결될 수 있도록 지원합니다.
 
+# Development Environment
+
+| Category                 | Technologies & Tools                                      |
+|--------------------------|-----------------------------------------------------------|
+| OS                       | Windows 11, Mac OS                                       |
+| Programming Languages    | HTML, CSS3, JavaScript, SQL, Java                        |
+| Frameworks               | Spring Boot, MyBatis, React                              |
+| Database                 | MariaDB                                                  |
+| Libraries                | React Router, Axios, Styled-Components, Chart.js, Day.js |
+| API                      | RESTful API                                              |
+| Tools                    | GitHub, IntelliJ, HeidiSQL, Figma                        |
+| Additional Technologies  | JPA, Node.js                                             |
+
+
 **핵심 기능**:  
 - 프로젝트 개설 및 관리  
 - 후원 및 결제 시스템 구현  
