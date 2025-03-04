@@ -339,7 +339,10 @@ https://github.com/user-attachments/assets/f74db6bc-5bb8-4098-bf0e-2d67c5d8fb46
 
 ## 🖥️ **결제**
 
-https://github.com/user-attachments/assets/fc4cefc4-d73d-4cc8-99ce-07f033af3a2a
+
+
+https://github.com/user-attachments/assets/6ed6d8e9-034e-4ef2-903a-7e6af9c626e5
+
 
 
 <br>
