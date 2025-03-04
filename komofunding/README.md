@@ -75,6 +75,8 @@ KOMO FUNDING은 단순한 펀딩을 넘어, 창작자와 후원자 간의 소통
 
 ---
 
+<details><summary>회원가입 기능 개요</summary>
+
  **회원가입 주요 기능**
 
 ✅ **이메일 인증 및 검증 (인증 코드 방식)**  
@@ -122,13 +124,13 @@ KOMO FUNDING은 단순한 펀딩을 넘어, 창작자와 후원자 간의 소통
 ✅ **로그인 상태 관리** → `HttpSession`을 통해 유지  
 ✅ **회원 탈퇴 시 계정 비활성화** → `UserStatus.DEACTIVATED` 처리  
 
+</details>
 
 ![로그인](https://github.com/user-attachments/assets/1ff454e6-6fb9-41fa-b180-15f06b022293)
 
 ---
 
 
-<br>
 
 <br>
 
@@ -141,6 +143,9 @@ KOMO FUNDING은 단순한 펀딩을 넘어, 창작자와 후원자 간의 소통
 https://github.com/user-attachments/assets/7e66bcfd-af4d-4f4d-a13f-375072061cf4
 
 ---
+
+
+<details><summary>프로필 관리 기능 개요</summary>
 
 ### **프로필 주요 기능**  
 
@@ -249,6 +254,8 @@ https://github.com/user-attachments/assets/7e66bcfd-af4d-4f4d-a13f-375072061cf4
 | **프로필 조회** | `useEffect`로 API 호출 → 상태 업데이트 | `GET /api/user/{userNum}/my_info/profile` |
 | **프로필 수정** | `onClick` 이벤트 발생 시 API 요청 | `PATCH /api/user/{userNum}/my_info/profile` |
 | **회원 탈퇴** | `onClick` → 비밀번호 검증 후 API 요청 | `DELETE /api/user/delete` |
+
+</details>
 
 ---
 
