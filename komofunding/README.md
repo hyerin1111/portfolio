@@ -275,8 +275,6 @@ React와 `useEffect()`를 활용해 API에서 데이터를 가져오고,
 현재 경로(`pathname`)에 따라 필터링하여 필요한 프로젝트만 화면에 표시하는 방식으로 구현되었습니다."*  
 
 ---
- <details>
-<summary>메인화면 기능 개요</summary>
 
 #### Home: 운영자의 승인을 받은 모든 프로젝트  
 
@@ -295,6 +293,9 @@ https://github.com/user-attachments/assets/83b19248-2770-45f5-a0b6-ead9e94e3b54
 https://github.com/user-attachments/assets/f74db6bc-5bb8-4098-bf0e-2d67c5d8fb46
 
 ---
+
+ <details>
+<summary>메인화면 기능 개요</summary>
 
 **프론트 구현 방식**
 1. /projects API를 호출해서 전체 프로젝트 데이터를 가져옵니다.
