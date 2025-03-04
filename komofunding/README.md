@@ -5,8 +5,6 @@
 KOMO FUNDING은 단순한 펀딩을 넘어, 창작자와 후원자 간의 소통을 활성화하고  
 성공적인 프로젝트 진행을 지원하는 역할을 합니다.
 
-[KOMOFUNDING__.pdf](https://github.com/user-attachments/files/19062316/KOMOFUNDING__.pdf)
-
 ##  **기간**
 >2024.11.04 ~ 2024.12.18
 
