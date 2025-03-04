@@ -276,7 +276,7 @@ React와 `useEffect()`를 활용해 API에서 데이터를 가져오고,
 
 ---
  <details>
-<summary>메인화요</summary>
+<summary>메인화먄 기능 개요</summary>
 
 #### Home: 운영자의 승인을 받은 모든 프로젝트  
 
