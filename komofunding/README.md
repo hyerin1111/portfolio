@@ -337,11 +337,64 @@ https://github.com/user-attachments/assets/f74db6bc-5bb8-4098-bf0e-2d67c5d8fb46
 
 <br>
 
-## 🖥️ **결제**
+<br>
 
+## 🖥️ **후원 및 결제 관리**
 
+*"이 프로젝트의 후원 및 결제 기능은 `React`와 `Spring Boot` 기반으로 구축되었으며,  
+PortOne API를 연동하여 신용카드 및 다양한 결제 수단을 지원합니다.  
+사용자는 프로젝트를 후원하고 결제할 수 있으며,  
+후원 내역 조회 및 환불 신청 기능도 포함되어 있습니다."*
 
 https://github.com/user-attachments/assets/6ed6d8e9-034e-4ef2-903a-7e6af9c626e5
+
+---
+
+### **주요 기능**  
+
+✅ **후원 결제 (PortOne API 연동)**  
+✅ **배송지 정보 입력 및 저장**  
+✅ **나의 후원 내역 조회 (진행 중 & 마감된 후원 구분)**  
+✅ **환불 신청 기능 (관리자 승인 후 처리)**  
+
+---
+
+### **후원 및 결제 프로세스**
+
+1️⃣ **사용자가 프로젝트 후원 선택**  
+2️⃣ **결제 정보 입력** (후원자 정보, 배송지, 환불 계좌)  
+3️⃣ **PortOne API를 통한 결제 요청**  
+4️⃣ **결제 성공 시, 후원 내역 DB 저장**  
+5️⃣ **나의 후원 목록에서 확인 가능 & 필요 시 환불 신청**  
+
+---
+
+### **데이터 처리 방식**  
+
+✅ **프론트엔드**  
+- `FundingPay.jsx`에서 결제 요청 및 후원 데이터 관리  
+- `UserFunding.jsx`에서 후원 목록 조회 및 필터링  
+
+✅ **백엔드**  
+- `PaymentService.java`에서 결제 정보 저장 및 관리  
+- `paymentRepository.save(payment)`를 통해 DB 저장  
+- `refundPayment()`를 통해 환불 처리  
+
+✅ **결제 API**  
+- `PortOne.requestPayment()`를 호출하여 결제 처리  
+- 결제 성공 시 후원 내역을 `Spring Boot`에서 저장  
+
+---
+
+### **결제 및 후원 관리 기능 구현 방식**
+
+| **기능** | **프론트엔드 구현 방식** | **백엔드 API** |
+|----------|------------------|-----------------|
+| **후원 결제** | PortOne API 연동 (`requestPayment()`) | `POST /payment/save` |
+| **후원 내역 조회** | API 호출 후 상태 업데이트 | `GET /payment/myinfo/funding` |
+| **환불 신청** | `onClick` → API 요청 | `DELETE /payment/myfunding/{paymentId}` |
+
+---
 
 
 
