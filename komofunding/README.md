@@ -28,7 +28,9 @@ KOMO FUNDING은 단순한 펀딩을 넘어, 창작자와 후원자 간의 소통
 [![홈 화면](https://github.com/user-attachments/assets/1e83c3c1-4bd5-4505-b20c-4bcaa7a3ed4d)  ](https://github.com/user-attachments/assets/1e83c3c1-4bd5-4505-b20c-4bcaa7a3ed4d)
 
 ---
-<details><summary>홈 화면 설명</summary>
+
+<details><summary>홈 화면 기능 개요</summary>
+
    
  **홈 화면 주요 기능**  
 ✅ **운영자가 승인한 프로젝트 목록**을 제공  
@@ -56,6 +58,7 @@ KOMO FUNDING은 단순한 펀딩을 넘어, 창작자와 후원자 간의 소통
 4. `progressRate` 값을 기준으로 인기 프로젝트 정렬  
 5. 랜덤 정렬 기능을 추가하여 여러 프로젝트가 균등하게 노출될 수 있도록 처리  
 </details>
+
 ---
 
 
