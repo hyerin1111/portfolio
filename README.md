@@ -152,7 +152,7 @@ Komofunding은 사용자의 다양한 아이디어를 실현할 수 있도록 �
 - 팀 모집 게시판 및 알림 기능  
 - 모바일 최적화를 통한 편의성 제공
 
-  **상세 설명**:  https://github.com/hyerin1111/portfolio/tree/main/pitchplay
+ 📌 **상세 설명**:  https://github.com/hyerin1111/portfolio/tree/main/pitchplay
 
 ---
 
@@ -166,6 +166,6 @@ Komofunding은 사용자의 다양한 아이디어를 실현할 수 있도록 �
 - 입양 신청 및 매칭 시스템  
 - 커뮤니티 기능을 통한 정보 공유
 
-  **상세 설명**:  https://github.com/hyerin1111/portfolio/tree/main/kkomoadopt
+📌 **상세 설명**:  https://github.com/hyerin1111/portfolio/tree/main/kkomoadopt
 
 ---
