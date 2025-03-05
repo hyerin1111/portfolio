@@ -48,7 +48,9 @@
 
 **팀 성과**:  
 - UI/UX 테스트를 통한 사용자 경험 개선  
-- 효율적인 팀 협업으로 일정 내 완성  
+- 효율적인 팀 협업으로 일정 내 완성
+
+  **상세 설명**:  https://github.com/hyerin1111/portfolio/tree/main/komofunding
 
 ---
 
