@@ -24,65 +24,70 @@
 ## 📌 프로젝트  
 
 ### 1. [크라우드 펀딩 플랫폼](https://github.com/coding-ji/komofunding)  
+
 **기간**: 2024.11.04 ~ 2024.12.18  
 **인원**: 8명  
-**소개**: Komofunding은 사용자의 다양한 아이디어를 실현할 수 있도록 돕는 크라우드 펀딩 웹 플랫폼입니다. 프로젝트를 효과적으로 홍보하고, 후원 및 결제를 간편하게 처리할 수 있는 시스템을 제공하여 사용자 편의성을 극대화합니다. 또한, 반응형 웹 디자인을 적용해 다양한 기기에서 최적의 경험을 제공하며, 보다 많은 후원자와 연결될 수 있도록 지원합니다.
+**소개**:  
+Komofunding은 사용자의 다양한 아이디어를 실현할 수 있도록 돕는 크라우드 펀딩 웹 플랫폼입니다.  
+프로젝트를 효과적으로 홍보하고, 후원 및 결제를 간편하게 처리할 수 있는 시스템을 제공하여 사용자 편의성을 극대화합니다.  
+또한, 반응형 웹 디자인을 적용해 다양한 기기에서 최적의 경험을 제공하며, 보다 많은 후원자와 연결될 수 있도록 지원합니다.  
 
-## 🛠 **기술 스택 (Tech Stack)**  
+---
+
+## **기술 스택 (Tech Stack)**  
 
 | **Category**            | **Technologies & Tools** |
 |------------------------|-------------------------|
-| **OS**                | 🖥 Windows 11, 🍏 Mac OS |
-| **Programming Languages** | 🧑‍💻 HTML, CSS3, JavaScript, SQL, Java |
-| **Frameworks**        | 🏗 Spring Boot, MyBatis, React |
-| **Database**          | 🗄 MariaDB |
-| **Libraries**         | 🔗 React Router, Axios, Styled-Components, Chart.js, Day.js, Framer Motion |
-| **API**               | 🌐 RESTful API |
-| **Tools**             | 🔧 GitHub, IntelliJ, HeidiSQL, Figma |
-| **Additional Technologies** | 📌 JPA, Node.js, Lombok, React Hooks (useState, useEffect) |
+| **OS**                | Windows 11, Mac OS |
+| **Programming Languages** | HTML, CSS3, JavaScript, SQL, Java |
+| **Frameworks**        | Spring Boot, MyBatis, React |
+| **Database**          | MariaDB |
+| **Libraries**         | React Router, Axios, Styled-Components, Chart.js, Day.js, Framer Motion |
+| **API**               | RESTful API |
+| **Tools**             | GitHub, IntelliJ, HeidiSQL, Figma |
+| **Additional Technologies** | JPA, Node.js, Lombok, React Hooks (useState, useEffect) |
 
 ---
 
-### 📌 **기술 스택 설명**
-- **백엔드**
-  - `Spring Boot`: REST API 기반 서버 개발
-  - `JPA`, `MyBatis`: ORM 및 데이터 접근 관리
-  - `MariaDB`: 관계형 데이터베이스 사용
-  - `Lombok`: 코드 간소화를 위한 어노테이션 활용
-  
-- **프론트엔드**
-  - `React`: 컴포넌트 기반 UI 개발
-  - `Styled-Components`: CSS-in-JS 스타일링 적용
-  - `React Router`: 페이지 이동 및 상태 관리
-  - `Framer Motion`: 애니메이션 및 전환 효과 적용
-  - `Axios`: 비동기 API 통신
-  
-- **기타**
-  - `GitHub`: 버전 관리 및 협업
-  - `HeidiSQL`: 데이터베이스 관리
-  - `Figma`: UI/UX 디자인  
+### **기술 스택 설명**  
+
+#### **백엔드**
+- `Spring Boot` : REST API 기반 서버 개발  
+- `JPA`, `MyBatis` : ORM 및 데이터 접근 관리  
+- `MariaDB` : 관계형 데이터베이스 사용  
+- `Lombok` : 코드 간소화를 위한 어노테이션 활용  
+
+#### **프론트엔드**
+- `React` : 컴포넌트 기반 UI 개발  
+- `Styled-Components` : CSS-in-JS 스타일링 적용  
+- `React Router` : 페이지 이동 및 상태 관리  
+- `Framer Motion` : 애니메이션 및 전환 효과 적용  
+- `Axios` : 비동기 API 통신  
+
+#### **기타**
+- `GitHub` : 버전 관리 및 협업  
+- `HeidiSQL` : 데이터베이스 관리  
+- `Figma` : UI/UX 디자인  
 
 ---
 
-### 🔍 **특징**
-✔️ **프론트엔드 & 백엔드 분리된 구조**  
-✔️ **React 기반 SPA**  
-✔️ **Spring Boot RESTful API 사용**  
-✔️ **데이터베이스 & 서버 연동 최적화**  
-✔️ **Git을 활용한 코드 관리 및 협업**  
-✔️ **Lombok으로 코드 간소화 및 유지보수성 향상**  
+### **특징**
+- 프론트엔드 & 백엔드 분리된 구조  
+- React 기반 SPA  
+- Spring Boot RESTful API 사용  
+- 데이터베이스 & 서버 연동 최적화  
+- Git을 활용한 코드 관리 및 협업  
+- Lombok으로 코드 간소화 및 유지보수성 향상  
 
-🚀 **위 기술 스택을 활용하여 효율적인 프로젝트 관리를 수행하였습니다.**  
+---
 
-
-
-
-**핵심 기능**:  
+### **핵심 기능**  
 - 프로젝트 개설 및 관리  
 - 후원 및 결제 시스템 구현  
-- 반응형 UI를 통한 다양한 디바이스 지원
+- 반응형 UI를 통한 다양한 디바이스 지원  
 
-  **상세 설명**:  https://github.com/hyerin1111/portfolio/tree/main/komofunding
+📌 **상세 설명**:  https://github.com/hyerin1111/portfolio/tree/main/komofunding
+
 
 ---
 
