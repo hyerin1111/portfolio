@@ -96,6 +96,56 @@ Komofunding은 사용자의 다양한 아이디어를 실현할 수 있도록 �
 **인원**: 8명  
 **소개**: 사용자들이 쉽고 편리하게 축구 경기장을 예약하고, 개인 또는 팀 단위로 경기 매칭과 팀 모집을 할 수 있도록 지원하는 웹 플랫폼입니다. 직관적인 인터페이스와 간편한 예약·매칭 시스템을 제공하여, 보다 원활한 경기 참여와 커뮤니티 형성을 돕습니다.
 
+## **기술 스택 (Tech Stack)**  
+
+| **Category**            | **Technologies & Tools** |
+|------------------------|-------------------------|
+| **OS**                | Windows 11, Mac OS |
+| **Programming Languages** | HTML, CSS, JavaScript, Java |
+| **Frameworks**        | Spring Boot, JPA, React |
+| **Database**          | MariaDB |
+| **Libraries**         | React Router, Framer Motion |
+| **Tools**             | GitHub, IntelliJ, Figma, draw.io |
+
+---
+
+### **기술 스택 설명**  
+
+#### **사용 도구 (Tools)**
+- **GitHub** : 코드 버전 관리 및 협업  
+- **IntelliJ** : 백엔드 개발 환경  
+- **Figma** : UI/UX 디자인 및 프로토타입 제작  
+- **draw.io** : 시스템 및 프레임워크 시각화  
+
+#### **사용 언어 (Languages)**
+- **Frontend** : HTML, CSS, JavaScript  
+- **Backend** : Java  
+- **Database** : MariaDB  
+
+#### **프레임워크 및 라이브러리**  
+##### **Frontend**
+- **React** : 사용자 인터페이스 개발  
+- **Framer Motion** : 동적 애니메이션 구현  
+
+##### **Backend**
+- **Spring Boot** : 백엔드 프레임워크  
+- **JPA** : 데이터베이스 ORM  
+
+---
+
+### **시스템 구성**
+#### **Frontend**
+- React와 Framer Motion을 활용해 UI/UX 개발  
+- Framer Motion으로 부드럽고 모던한 애니메이션 적용  
+
+#### **Backend**
+- Spring Boot와 JPA를 사용한 API 및 데이터 관리  
+- JPA를 통해 데이터베이스 연결  
+
+#### **Database**
+- MariaDB로 데이터 저장 및 처리  
+
+
 **핵심 기능**:  
 - 경기장 예약 및 팀 매칭 기능  
 - 팀 모집 게시판 및 알림 기능  
