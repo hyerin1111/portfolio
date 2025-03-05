@@ -24,7 +24,10 @@ PitchPlay는 직관적인 인터페이스와 편리한 시스템을 통해
 *홈 화면에서는 프로젝트 데이터를 프론트에서 필터링하여 표시하는 방식으로 구현되었으며,  
 신규 프로젝트(isNew 태그)와 인기 프로젝트(isPopular 태그)를 자동으로 필터링하여 노출합니다."*
 
-![메인 홈](https://github.com/user-attachments/assets/aadce914-870e-4ee6-a2e9-a570f3452da2)
+
+
+https://github.com/user-attachments/assets/cf5eb3f0-642a-446f-8e07-f3a59433d3b7
+
 
 
 ---
