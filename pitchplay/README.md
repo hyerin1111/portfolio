@@ -11,3 +11,21 @@ PitchPlay는 직관적인 인터페이스와 편리한 시스템을 통해
 ## 👥 **인원**
 >8명
 
+---
+
+<br>
+
+## 🖥️ **홈 화면**
+
+*"이 프로젝트의 프론트엔드는 `React` 기반으로 구축되었으며,  
+`Framer Motion`, `Styled-components`, `React Router`, `CSS Modules` 등의 기술을 활용하여  
+직관적인 UI와 동적인 사용자 경험을 제공합니다.*
+
+*홈 화면에서는 프로젝트 데이터를 프론트에서 필터링하여 표시하는 방식으로 구현되었으며,  
+신규 프로젝트(isNew 태그)와 인기 프로젝트(isPopular 태그)를 자동으로 필터링하여 노출합니다."*
+
+![메인 홈](https://github.com/user-attachments/assets/aadce914-870e-4ee6-a2e9-a570f3452da2)
+
+
+---
+
