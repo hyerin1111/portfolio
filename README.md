@@ -74,6 +74,6 @@
 - 입양 신청 및 매칭 시스템  
 - 커뮤니티 기능을 통한 정보 공유
 
-  **상세 설명**:  
+  **상세 설명**:  https://github.com/hyerin1111/portfolio/tree/main/kkomoadopt
 
 ---
