@@ -60,7 +60,7 @@
 - 팀 모집 게시판 및 알림 기능  
 - 모바일 최적화를 통한 편의성 제공
 
-  **상세 설명**:  
+  **상세 설명**:  https://github.com/hyerin1111/portfolio/tree/main/pitchplay
 
 ---
 
