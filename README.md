@@ -40,7 +40,7 @@ Komofunding은 사용자의 다양한 아이디어를 실현할 수 있도록 �
 |------------------------|-------------------------|
 | **OS**                | Windows 11, Mac OS |
 | **Programming Languages** | HTML, CSS3, JavaScript, SQL, Java |
-| **Frameworks**        | Spring Boot, MyBatis, React |
+| **Frameworks**        | Spring Boot, React |
 | **Database**          | MariaDB |
 | **Libraries**         | React Router, Axios, Styled-Components, Chart.js, Day.js, Framer Motion |
 | **API**               | RESTful API |
