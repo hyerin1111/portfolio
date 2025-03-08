@@ -108,7 +108,16 @@ https://github.com/user-attachments/assets/f74db6bc-5bb8-4098-bf0e-2d67c5d8fb46
 3.  프로젝트를 생성하고, 조회하고, 삭제하는 기능을 구현하여 사용자의 편의성을 높였습니다.
 4.  데이터 무결성을 유지하기 위해 @Transactional을 사용하여 안정적인 트랜잭션을 관리합니다.
 
-
+**나의 기여**
+1. React와 Spring Boot API 연동 → useEffect로 API 호출해 프로젝트 데이터 불러옴.
+2. 진행 중인 프로젝트만 필터링 → projectStartDate와 projectEndDate 기준으로 현재 활성 프로젝트만 렌더링.
+3. 후원 진행률 기준 인기 프로젝트 정렬 → currentAmount / totalAmount 값이 높은 순으로 배치.
+4. 비동기 처리 (useEffect, async/await) → 데이터 로딩/에러 상태 관리.
+5. 신규(30일 이내 시작) & 인기 프로젝트 구분 → isNew 플래그 추가, 6개씩 랜덤 정렬.
+6. 반응형 UI (window.resize) 적용 → 화면 크기에 따라 다른 UI 요소 표시.
+7. Framer Motion 애니메이션 적용 → 프로젝트 카드 랜덤 애니메이션 & 마우스 호버 효과.
+8. 로딩·에러 상태 관리 → loading, error 상태를 활용해 데이터 상태 처리.
+9. 로그인 여부에 따른 기능 제한 → localStorage에서 user 정보 확인 후 버튼 기능 제한.
 
  </details>
 
@@ -655,4 +664,7 @@ https://github.com/user-attachments/assets/3519061d-4c06-42a9-a2f5-9be7cd61d886
 
 
 ---
+
+
+
 
