@@ -13,7 +13,7 @@ KOMO FUNDING은 단순한 펀딩을 넘어, 창작자와 후원자 간의 소통
 
 ## 주요 성과 및 기여도 (Key Achievements & Contributions)
 
-📌 주요 성과 (Key Achievements)
+**📌 주요 성과 (Key Achievements)**
 
 1. RESTful API 설계 및 최적화 → 클라이언트-서버 간 통신을 효율적으로 개선하여 데이터 교환 속도 향상
 2. MariaDB 기반 데이터베이스 스키마 설계 → 데이터 저장 및 조회 성능을 최적화
@@ -23,7 +23,7 @@ KOMO FUNDING은 단순한 펀딩을 넘어, 창작자와 후원자 간의 소통
 6. Quill Editor 연동 → HTML 기반 FAQ, 공지사항, 이벤트 등의 커뮤니티 콘텐츠 관리 기능 구현
 7. 프론트엔드-백엔드 연동 최적화 → 실시간 데이터 처리를 통해 원활한 사용자 경험 제공
 
-📌 주요 기여도 (Key Contributions)
+**📌 주요 기여도 (Key Contributions)**
 
 ✅ 프론트엔드 개발
 
