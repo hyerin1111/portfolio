@@ -49,6 +49,41 @@ RESTful API 명세서 작성 → 데이터 요청 및 응답 형식 정의하여
 
 ---
 
+📌 기능 상세 설명
+1️⃣ 팀 매칭 (Team Matching)
+사용자는 필터링(지역, 성별, 날짜)과 정렬 옵션(최신순 등)으로 원하는 매칭을 찾을 수 있음
+useOutletContext()를 활용해 전역 필터링 상태 공유
+axios를 활용하여 JSON 데이터 불러오고 useEffect로 상태 업데이트
+🚀 관련 백엔드 API: GET /api/social-match (매칭 목록 조회)
+2️⃣ 용병 모집 (Guest Player Recruitment)
+사용자가 용병을 모집하는 게시글을 작성하고, 지원 가능
+Quill을 활용한 WYSIWYG 에디터로 공고 작성
+axios.get()을 활용해 경기장 정보, 예약 정보 등을 동기적으로 불러와 적용
+지원 시 모달 팝업 및 알람 UI 적용
+🚀 관련 백엔드 API: POST /api/social-match (매칭 생성)
+3️⃣ 구장 예약 (Stadium Reservation)
+사용자가 원하는 구장을 선택하고 예약 가능
+Kakao Map API를 연동하여 위치 정보를 지도에 표시
+navigator.clipboard.writeText()를 활용한 주소 복사 기능 제공
+로그인 상태 확인 후 예약 가능하도록 설정
+🚀 관련 백엔드 API: POST /api/reservation (예약 등록)
+4️⃣ 소셜 매칭 (Social Match)
+사용자가 직접 경기 매칭을 만들고, 참가자 관리 가능
+
+백엔드 주요 기능:
+✅ 매칭 생성 (POST /api/social-match)
+✅ 매칭 조회 (GET /api/social-match/{matchNumber})
+✅ 매칭 수정 (PUT /api/social-match/{matchId}) → 멤버 추가 가능
+✅ 매칭 삭제 (DELETE /api/social-match/{matchId}) → 논리 삭제 적용
+
+🔥 특징:
+
+최대 인원 초과 시 자동 제한
+경기 시작 시간 업데이트 가능
+고유한 6자리 숫자 매칭 번호 생성
+
+---
+
 <br>
 
 ## 🖥️ **홈 화면**
