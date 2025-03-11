@@ -11,6 +11,17 @@ PitchPlay는 직관적인 인터페이스와 편리한 시스템을 통해
 ## 👥 **인원**
 >8명
 
+**📌 Technologies & Tools (PitchPlay)**
+Category	Technologies & Tools
+OS	Windows, Mac OS
+Programming Languages	Java, JavaScript
+Frameworks	Spring Boot, React
+Database	MariaDB
+Libraries	JPA, Lombok, Styled-Components, Framer Motion, Axios
+API	RESTful API (Spring Boot 기반)
+Tools	GitHub, IntelliJ, HeidiSQL, Figma
+Additional Technologies	LocalStorage, React Hooks (useState, useEffect)
+
 
 ## ✅ 주요 기여도
 
